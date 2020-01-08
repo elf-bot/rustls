@@ -16,7 +16,7 @@ base64 = "0.11"
 log = { version = "0.4.4", optional = true }
 ring = "0.16.5"
 sct = "0.6.0"
-webpki = "0.21.0"
+webpki = { git = "https://github.com/elf-bot/webpki" }
 
 [features]
 default = ["logging"]
